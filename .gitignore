@@ -14,6 +14,17 @@ ENV/
 # Streamlit
 .streamlit/secrets.toml
 
+# Notebooks
+.ipynb_checkpoints/
+
+# Training outputs
+models/
+metrics/
+checkpoints/
+wandb/
+runs/
+*.safetensors
+
 # Environment variables
 .env
 .env.*
